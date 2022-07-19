@@ -4,7 +4,7 @@ const NodePolyfillPlugin = require("node-polyfill-webpack-plugin");
 module.exports = {
   mode: "production",
 
-  entry: "./src/index.ts", // entry 경로 수정
+  entry: "./src/Index.ts", // entry 경로 수정
 
   output: {
     path: path.join(__dirname, "/dist"), // 번들 결과물 위치
