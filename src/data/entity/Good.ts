@@ -11,10 +11,13 @@ export class Good {
     @Column({type:"varchar", length:100, nullable:false})
     name: string
 
-    @ManyToOne(()=>Category, (cate)=>cate.goods, {cascade:true})
-    cate_id: Category
+    @Column()
+    price: number
 
-    @OneToMany(()=>Orders, (order)=>order.good_id)
+    @ManyToOne(()=>Category, (cate)=>cate.goods, {cascade:true})
+    cate: Category
+
+    @OneToMany(()=>Orders, (order)=>order.good)
     orders: Orders[]
 
 }

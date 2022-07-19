@@ -9,16 +9,16 @@ export class Orders {
     id:number
 
     @ManyToOne(()=>Good, (good)=>good.orders)
-    good_id: Good
+    good: Good
 
     @ManyToOne(()=>User, (user)=>user)
-    user_id: User
+    user: User
 
     @Column({type:"varchar", length:1, nullable:false})
     spec: string
 
     @Column({type:"datetime", nullable:false})
-    ord_tinme: string
+    ordTime: string
 
     @Column()
     cnt: number

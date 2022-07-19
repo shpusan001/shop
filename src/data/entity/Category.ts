@@ -10,6 +10,6 @@ export class Category {
     @Column({type:"varchar", length:100, nullable:false, unique:true})
     name: string
 
-    @OneToMany(()=>Good, (good)=>good.cate_id)
+    @OneToMany(()=>Good, (good)=>good.cate)
     goods: Good[]
 }

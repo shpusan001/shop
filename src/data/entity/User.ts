@@ -22,6 +22,6 @@ export class User {
     @Column({type:"bigint"})
     purch_tot: number
 
-    @OneToMany(()=>Orders, (order)=>order.user_id)
+    @OneToMany(()=>Orders, (order)=>order.user)
     orders: Orders
 }
