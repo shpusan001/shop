@@ -11,6 +11,10 @@ module.exports = {
     filename: "bundle.js",
   },
 
+  externals: {
+    typeorm: "commonjs typeorm",
+  },
+
   plugins: [new NodePolyfillPlugin()],
 
   module: {
