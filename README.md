@@ -58,4 +58,4 @@ npm start
 ![image](https://user-images.githubusercontent.com/35298140/179865723-82e1d543-222e-4d4f-ad9b-b0824f4a087b.png)
 
 # API 명세
-![image](https://user-images.githubusercontent.com/35298140/179866885-50037d91-fa3a-411c-8d1b-3bccc9af2723.png)
+![image](https://user-images.githubusercontent.com/35298140/179872752-75621409-4d8b-4bf3-83ef-65fb676a313d.png)
